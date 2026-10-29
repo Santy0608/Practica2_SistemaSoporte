@@ -22,9 +22,6 @@ namespace Abstracciones.Agentes
         public string Telefono { get; set; } = string.Empty;
         public int CapacidadMaxima { get; set; }
         public bool Activo { get; set; }
-        public DateTime FechaIngreso { get; set; }
-
-
 
     }
 
@@ -37,8 +34,7 @@ namespace Abstracciones.Agentes
         string Correo,
         string Telefono,
         int CapacidadMaxima,
-        bool Activo,
-        DateTime FechaIngreso);
+        bool Activo);
 
     public class AgenteFiltro : ParametrosPaginacion
     {
